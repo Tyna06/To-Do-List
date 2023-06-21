@@ -1,0 +1,131 @@
+body {
+    box-sizing: border-box;
+    background-image: url(../images/www.jpg);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+nav{
+    border: 1px solid black;
+    background-image:url(../images/logo.png);
+    background-position:left top ;
+    background-repeat: no-repeat;
+    background-size:3.6rem;
+    padding-left:10rem;
+    border-image-width:2%;
+    background-color: aliceblue;
+    
+}
+nav ul {
+    border: 1px solid pink;
+height:1.5rem;
+padding:0.5rem;
+margin-right: 2rem;
+
+    
+}
+nav ul li{
+    border: 1px solid black;
+    display:inline;
+    float: right;
+    margin-right: 3rem;
+    font-size: x-large;
+    margin-top: -0.5rem;
+height: 2rem;
+
+
+}
+nav ul li a{
+    margin-right:7rem;
+    padding:1.1rem;
+    text-decoration: none;
+    font-size: x-large;
+    color:black;
+    width: 30px;
+    text-align: center;
+    
+    
+}
+nav ul li :hover{
+    background-color:crimson;
+    padding:0.4rem;
+    border-radius:10%;
+   height:5px;
+    
+}
+
+h1 {
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    width: 40%;
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: 2.2rem;
+    height: 2rem;
+    padding: 1rem;
+}
+
+.carrer1 {
+    border: 1px solid black;
+    width:50%;
+    background-color:lightgrey;
+    border-radius: 2em 1em 4em / 0.5em 3em;    
+    margin-left:-0.3rem;
+}
+.carrer2{
+    border: 1px solid black;
+    width:50%;
+    background-color:lightgrey;
+    border-radius: 2em 1em 4em / 0.5em 3em; 
+    float: right;
+    margin-top: -25.4rem;
+    height:400px;
+    margin-right: -0.5rem;
+
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(250, 200,150, 10);
+    background-color: brown;
+    
+    
+}
+.first{
+    color: brown;
+    background-color: rgba(250, 200,150, 10);;
+    font-size: 4rem;
+    margin-right: 1rem;
+    
+}
+
+p {
+    border: 1px solid black;
+    background-color: aqua;
+    width:30%;
+    height:2.5rem;
+    margin-left:15rem;
+    text-align: center;
+    padding:5px;
+    padding-top:-1rem;
+    font-size:larger;
+
+
+}
+
+.img {
+    border: 1px solid black;
+    height: 200px;
+    background-image: url(../images/css.jpg);
+    background-repeat: no-repeat;
+    background-position: right ;
+    padding:0.1rem;
+}
+img{
+    float:left;
+    padding:6rem;
+    margin-left:-1rem;
+    width:3rem;
+    height:3rem;
+    margin-top:-5.9rem;  
+}
